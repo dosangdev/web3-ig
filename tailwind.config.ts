@@ -13,8 +13,11 @@ export default {
         secondary: "#ffffff",
         primaryText: "#f5f5f5",
         alert: "#ff3040",
+
         followBtn: "#0095f6",
-        followedText: "#a8a8a8",
+        followText: "#363636",
+        followHover: "#262626",
+        threadHover: "#c2c2c2",
         footerText: "#737373",
       },
       fontFamily: {
@@ -39,6 +42,9 @@ export default {
         bold: "700",
         extrabold: "800",
         black: "900",
+      },
+      borderWidth: {
+        "1": "1px",
       },
     },
   },

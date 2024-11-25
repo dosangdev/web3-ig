@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import { useEffect, useState } from "react";
+import User from "./[pageId]/page";
 
 export default function Home() {
   const [Theme, setTheme] = useState("dark");
@@ -15,7 +16,7 @@ export default function Home() {
         Theme === "dark" ? "primary" : "secondary"
       } w-[100vw] h-[100vh]`}
     >
-      <div></div>
+      <User />
     </div>
   );
 }
